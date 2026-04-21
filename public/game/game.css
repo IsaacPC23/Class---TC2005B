@@ -1,0 +1,53 @@
+html {
+    background-color: #01010D;
+}
+
+body {
+    background-repeat:repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: color;
+    font-family: "Barlow", sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+.game-background {
+    height: 41rem;
+    width: 86rem;
+    margin: auto;
+    padding: 0.5rem;
+    background-color: #01010D;
+}
+
+.game-container {
+    height: 40rem;
+    width: 85rem;
+    border: none;
+    margin: 0;
+}
+
+@media (max-width: 900px) {
+    .button {
+        font-size: 1.05rem;
+        padding: 0.65rem 1rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .button {
+        font-size: 0.8rem;
+        padding: 6px 10px;
+        margin-left: auto;
+        margin-right: 0.3rem;
+    }
+}
